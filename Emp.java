@@ -14,8 +14,8 @@ else if (empcheck == IS_FULL_TIME)
      empHrs = 8;
 else
      empHrs = 0;
-EmpWage = empHrs * EMP_RATE_PER_HOUR;
-System.out.println("Emp Wage: " + EmpWage);
+empwage = empHrs * EMP_RATE_PER_HOUR;
+System.out.println("Emp Wage: " + empwage);
 
 }
 }
