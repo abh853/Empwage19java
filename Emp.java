@@ -7,12 +7,12 @@ int EMP_RATE_PER_HOUR = 20;
 int empHrs = 0;
 int empwage = 0;
 double empcheck = Math.floor(Math.random() * 10) % 2;
-if (Empcheck == IS_FULL_TIME)
+if (empcheck == IS_FULL_TIME)
      empHrs =  8;
 else
      empHrs = 0;
-EmpWage = empHrs * EMP_RATE_PER_HOUR;
-System.out.println("Emp Wage: " + EmpWage);
+empwage = empHrs * EMP_RATE_PER_HOUR;
+System.out.println("Emp Wage: " + empwage);
 
 }
 }
