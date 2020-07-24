@@ -8,7 +8,7 @@ public static void main(String args[])
 int empHrs = 0;
 int empwage = 0;
 int empCheck = (int) Math.floor(Math.random() * 10) % 3;
-switch (empcheck) 
+switch (empCheck) 
 {
    case IS_PART_TIME:
         empHrs = 4;
@@ -19,8 +19,8 @@ switch (empcheck)
    default:
         empHrs = 0;
 }
-EmpWage = empHrs * EMP_RATE_PER_HOUR;
-System.out.println("Emp Wage: " + EmpWage);
+empwage = empHrs * EMP_RATE_PER_HOUR;
+System.out.println("Emp Wage: " + empwage);
 
 }
 }
